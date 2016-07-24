@@ -1,0 +1,23 @@
+{
+  "name": "my-first-repo",
+  "version": "1.0.0",
+  "description": "Testing HTML,CSS,SASS, etc",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Testing I guess\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dougeemmanuel1/my-first-repo.git"
+  },
+  "author": "Emmanuel Douge",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dougeemmanuel1/my-first-repo/issues"
+  },
+  "homepage": "https://github.com/dougeemmanuel1/my-first-repo#readme",
+  "devDependencies": {
+    "browser-sync": "^2.13.0",
+    "gulp": "^3.9.1"
+  }
+}
