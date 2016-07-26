@@ -1,0 +1,31 @@
+.center
+{
+    background-color:#d29d2b;
+    width:500px;
+    margin:0 auto 0 auto;
+}
+.apple-image
+{
+    float:right;
+    border-top-right-radius: 0%;
+    border-top-left-radius: 100%;
+    border-bottom-right-radius: 0%;
+    border-bottom-left-radius: 100%;
+
+}
+ul,
+ol
+{
+    float: right;
+    display: inline-block;
+}
+#apple
+{
+    color:#000222;
+    border:50% solid blue;
+    margin:0 auto;
+}
+#apple:hover
+{
+    color:blue;
+}
