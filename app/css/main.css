@@ -1,8 +1,9 @@
 .center
 {
-    background-color:#d29d2b;
     width:500px;
+    height: 1200px;
     margin:0 auto 0 auto;
+    background-color:#d29d2b;
 }
 .apple-image
 {
@@ -13,15 +14,20 @@
     border-bottom-left-radius: 100%;
 
 }
+.main-content
+{
+    background-color: #d3d3d3;
+    padding: 9px 10px;
+    border-radius: 6px;
+}
 ul,
 ol
 {
-    float: right;
+    float:right;
     display: inline-block;
 }
 #apple
 {
-    color:#000222;
     border:50% solid blue;
     margin:0 auto;
 }
