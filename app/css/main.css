@@ -1,3 +1,7 @@
+a
+{
+    text-decoration: none;
+}
 .background-center
 {
     background-color: #D9DCD7;
@@ -14,6 +18,8 @@
 .nav-bar-left
 {
     display: block;
+    width: 260px;
+    height: 1200px;
 }
 .logo-box
 {
@@ -36,6 +42,7 @@
     border-top: 1px solid #737373;
     -webkit-font-smoothing: antialiased;
     width: 260px;
+    height: 50px;
 }
 .nav-menu-option
 {
@@ -64,4 +71,66 @@
 .large-feature
 {
     height: 380px;
+}
+.main-content-placeholder
+{
+    display:block;
+    width: 1px;
+    height: 1px;
+    background: #000;
+    /*Handle positioning*/
+    position: relative;
+    top: -1200px;
+    left: 300px;
+    float: left;
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+.tile-content
+{
+    display: block;
+    background: #FFF;
+    width: 760px;
+    height: 260px;
+    text-align: left;
+    padding: 5px 20px;
+    float: left;
+    border: 1px;
+    /*overflow: hidden;*/
+}
+.tile-content h3
+{
+    font-size: 20px;
+    -webkit-font-smoothing: antialiased;
+    display: block;
+}
+.tile-text
+{
+    display: inline-block;
+    float: right;
+    margin: 0px;
+    /*padding: 0px;*/
+    height: 180px;
+
+    /*width: 200px*/
+    /*position: relative;*/
+    /*top: -140px;*/
+    /*clear: left;*/
+    /*line-height: 400px;*/
+}
+.tile-img
+{
+    display: inline-block;
+
+}
+.clearfix::before,
+.clearfix::after
+{
+    content: "";
+    display: table;
+}
+.clearfix::after
+{
+    clear: both;
 }
