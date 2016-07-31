@@ -1,1 +1,1 @@
-# Generic sample blog site
+# Generic sample blog sites
