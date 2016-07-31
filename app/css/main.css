@@ -20,6 +20,8 @@ a
     display: block;
     width: 260px;
     height: 1200px;
+    float: left;
+    margin: 30px;
 }
 .logo-box
 {
@@ -78,26 +80,30 @@ a
     width: 1px;
     height: 1px;
     background: #000;
+    float: right;
     /*Handle positioning*/
-    position: relative;
-    top: -1200px;
-    left: 300px;
+    /*position: relative;*/
+    /*top: -1200px;*/
+    /*left: 300px;*/
     float: left;
     margin: 0;
     border: 0;
     padding: 0;
 }
+section div:first-of-type
+{
+    margin-top: 30px;
+}
 .tile-content
 {
     display: block;
+    box-sizing: border-box;
     background: #FFF;
     width: 760px;
     height: 260px;
-    text-align: left;
     padding: 5px 20px;
-    float: left;
     border: 1px;
-    /*overflow: hidden;*/
+    margin-bottom: 30px;
 }
 .tile-content h3
 {
@@ -107,21 +113,12 @@ a
 }
 .tile-text
 {
-    display: inline-block;
-    float: right;
     margin: 0px;
-    /*padding: 0px;*/
-    height: 180px;
-
-    /*width: 200px*/
-    /*position: relative;*/
-    /*top: -140px;*/
-    /*clear: left;*/
-    /*line-height: 400px;*/
 }
 .tile-img
 {
     display: inline-block;
+    float: left;
 
 }
 .clearfix::before,
