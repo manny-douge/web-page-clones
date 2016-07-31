@@ -1,1 +1,1 @@
-# my-first-repo 
+# Generic sample blog site
