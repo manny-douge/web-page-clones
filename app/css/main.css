@@ -105,6 +105,10 @@ section div:first-of-type
     border: 1px;
     margin-bottom: 30px;
 }
+ .tile-content h3:first-of-type
+{
+    /*text-align: center;*/
+}
 .tile-content h3
 {
     font-size: 20px;
@@ -119,6 +123,7 @@ section div:first-of-type
 {
     display: inline-block;
     float: left;
+    margin-right: 10px;
 
 }
 .clearfix::before,
