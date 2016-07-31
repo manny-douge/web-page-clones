@@ -1,1 +1,1 @@
-# Base workflow for any webpage
+# Generic sample blog site
