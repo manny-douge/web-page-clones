@@ -1,1 +1,1 @@
-# Blog site layout
+# Base workflow for any webpage
