@@ -2,9 +2,124 @@
 <html lang="en"><!-- //Language being used-->
     <head>
         <meta charset="utf-8">
-        <title></title>
-        <link rel="stylesheet" href="css/main.css">
+        <title>Generic Coding Blog</title>
+        <link rel="stylesheet" href="css/base/base.css">
+        <link rel="stylesheet" href="css/layout/layout.css">
+        <link rel="stylesheet" href="css/module/module.css">
     </head>
     <body>
+        <header id="header">
+            <p id="header-title">
+                Generic Coding Blog
+            </p>
+        </header>
+        <header id="h-sub" class="h-sub-shadow">
+            <ul class="group-list">
+                <li class="nc-item">
+                    <a href="#">Home</a>
+                </li>
+                <li class="nc-item">
+                    <a href="#">All Posts</a>
+                </li>
+                <li class="nc-item">
+                    <a href="#bottom">About Us</a>
+                </li>
+            </ul>
+        </header>
+        <main id="main">
+            <h1 class="featured-title">
+                Article Title
+            </h1>
+            <div class="text">
+                Occaecat adipisicing nisi id proident officia dolore qui ipsum esse mollit ea labore sit.Exercitation veniam ut exercitation reprehenderit culpa ad pariatur dolore occaecat laborum pariatur amet et ad culpa esse.
+            </div>
+            <div class="text">
+                Sit nulla laborum sit exercitation ad veniam labore dolor ut.Fugiat sunt et excepteur deserunt aute voluptate enim.
+            </div>
+            <h2 class="section-title">
+                Section Title
+            </h2>
+            <div class="text">
+                Deserunt excepteur laboris voluptate consectetur proident anim dolore aliquip sint.Laborum voluptate esse ut ea eu Lorem cupidatat dolor velit in.Excepteur qui sit nisi anim officia sit reprehenderit amet.
+            </div>
+            <!-- Table begins -->
+            <table class="table">
+                  <thead>
+                        <th class="table-header th-small">What</th>
+                        <th class="table-header th-large">Where</th>
+                        <th class="table-header th-small">How</th>
+                  </thead>
+                  <tbody>
+                      <tr>
+                          <td class="table-cell">HTML</td>
+                          <td class="table-cell">Laborum est sit officia sit nostdud deserunt quis duis ea Lorem ea sunt exercitation fugiat consectetur. Mollit laboris minim adipisicing reprehenderit mollit sunt ullamco culpa ut consequat id officia nisi cillum eiusmod aliquip eiusmod</td>
+                          <td class="table-cell"><p class="button">Go!</p></td>
+                      </tr>
+                      <tr>
+                          <td class="table-cell">CSS</td>
+                          <td class="table-cell">Laborum est sit officia sit nostdud deserunt quis duis ea Lorem ea sunt exercitation fugiat </td>
+                          <td class="table-cell"><p class="button">Try!</p></td>
+                      </tr>
+                      <tr>
+                          <td class="table-cell">JS</td>
+                          <td class="table-cell">Consequat ut sunt quis reprehenderit et velit irure.</td>
+                          <td class="table-cell"><p class="button">View!</p></td>
+                      </tr>
+                  </tbody>
+            </table>
+            <!-- Table Ends -->
+            <div class="text">
+                Deserunt excepteur laboris voluptate consectetur proident anim dolore aliquip sint.Laborum voluptate esse ut ea eu Lorem cupidatat dolor velit in.Excepteur qui sit nisi anim officia sit reprehenderit amet.
+            </div>
+            <h2 class="section-title">
+                Section Title
+            </h2>
+            <div class="text">
+                Deserunt excepteur laboris voluptate consectetur proident anim dolore aliquip sint.Laborum voluptate esse ut ea eu Lorem cupidatat dolor velit in.Excepteur qui sit nisi anim officia sit reprehenderit amet.
+            </div>
+            <article class="code-snippet">if(!manny.isMakingQualityContent)
+                 manny.implode();
+            </article>
+            <div class="text">
+                Deserunt excepteur laboris voluptate consectetur proident anim dolore aliquip sint.Laborum voluptate esse ut ea eu Lorem cupidatat dolor velit in.Excepteur qui sit nisi anim officia sit reprehenderit amet.
+            </div>
+            <div class="text">
+                Deserunt excepteur laboris voluptate consectetur proident anim dolore aliquip sint.Laborum voluptate esse ut ea eu Lorem cupidatat dolor velit in.Excepteur qui sit nisi anim officia sit reprehenderit amet.
+            </div>
+            <h2 class="section-title">
+                Section Title
+            </h2>
+            <div class="text">
+                Deserunt excepteur laboris voluptate consectetur proident anim dolore aliquip sint.Laborum voluptate esse ut ea eu Lorem cupidatat dolor velit in.Excepteur qui sit nisi anim officia sit reprehenderit amet.
+            </div>
+            <img src="http://placehold.it/640x100">
+            <article class="code-snippet">gulp.task('watch',['browserSync'], function()
+                {
+                    //console.log('Reloaded');
+                    gulp.watch('app/*.html',browserSync.reload);
+                    gulp.watch('app/js/**/*.js',browserSync.reload);
+                    gulp.watch('app/css/*.css',browserSync.reload);
+                    gulp.watch('app/css/**/*.css',browserSync.reload);
+});
+            </article>
+            <ol>
+                <li class="text">Veniam reprehenderit cupidatat elit eu Lorem velit ut velit veniam labore occaecat sit Lorem sunt consectetur eu consequat.</li>
+                <li class="text">Veniam reprehenderit cupidatat elit eu Lorem velit ut velit veniam labore occaecat sit Lorem sunt consectetur eu consequat.</li>
+                <li class="text">Veniam reprehenderit cupidatat elit eu Lorem velit ut velit veniam labore occaecat sit Lorem sunt consectetur eu consequat.</li>
+            </ol>
+            <p class="post-details">
+                  Posted by <b>Author</b> under <b>Web > Dev</b> on <b>January 13,2014.</b>
+            </p>
+            <h1 class="featured-title comment-title">
+                Comments
+            </h1>
+            <!-- Unordered list for form header cut off bars and text -->
+            <ul class="group-list">
+                <li><span class="fh-left-bar"></span></li>
+                <li><h2 class="form-header">USER INFO</h></li>
+                <li><span class="fh-right-bar"></span></li>
+            </ul>
+        </main>
+        <footer id="footer">Footer</footer>
     </body>
 </html>

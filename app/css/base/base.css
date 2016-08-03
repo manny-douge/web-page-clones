@@ -1,1 +1,23 @@
-s
+body
+{
+    background: #7F8C8D;
+}
+a:link, a:visited
+{
+    color: #FFF;
+    text-decoration: none;
+}
+a:hover
+{
+    color: #D97F2D;
+    text-decoration: none;
+}
+img
+{
+    align-items: center;
+    padding: 20px 20px;
+}
+*
+{
+    /*-webkit-font-smoothing: antialiased;*/
+}
